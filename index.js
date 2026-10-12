@@ -256,7 +256,7 @@ app.post(
             overrides: {
                containerOverrides: [
                   {
-                     name: 'builder-image',
+                     name: 'Main',
                      environment: [
                         { name: 'GIT_REPOSITORY_URL', value: repoUrl },
                         { name: 'PROJECT_ID', value: project.slug },
@@ -442,7 +442,7 @@ app.post('/project', verifyJWT, async (req, res) => {
          overrides: {
             containerOverrides: [
                {
-                  name: 'builder-image',
+                  name: 'Main',
                   environment: [
                      { name: 'GIT_REPOSITORY_URL', value: gitURL },
                      { name: 'PROJECT_ID', value: projectSlug },
