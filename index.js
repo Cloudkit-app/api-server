@@ -246,11 +246,11 @@ app.post(
                awsvpcConfiguration: {
                   assignPublicIp: 'ENABLED',
                   subnets: [
-                     'subnet-04f323939b63abec6',
-                     'subnet-0a60e250f5830c75c',
-                     'subnet-0b1dba884c5855587',
+                     'subnet-02bd4eeed1104d0b7',
+                     'subnet-0847334a3f2021551',
+                     'subnet-0fdda9fb8e6710846',
                   ],
-                  securityGroups: ['sg-0392cb319058e58d1'],
+                  securityGroups: ['sg-06fdfaf8cbac42b1a'],
                },
             },
             overrides: {
@@ -432,11 +432,11 @@ app.post('/project', verifyJWT, async (req, res) => {
             awsvpcConfiguration: {
                assignPublicIp: 'ENABLED',
                subnets: [
-                  'subnet-04f323939b63abec6',
-                  'subnet-0a60e250f5830c75c',
-                  'subnet-0b1dba884c5855587',
+                  'subnet-02bd4eeed1104d0b7',
+                  'subnet-0847334a3f2021551',
+                  'subnet-0fdda9fb8e6710846',
                ],
-               securityGroups: ['sg-0392cb319058e58d1'],
+               securityGroups: ['sg-06fdfaf8cbac42b1a'],
             },
          },
          overrides: {
